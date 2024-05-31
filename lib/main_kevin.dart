@@ -71,8 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     final ButtonStyle raisedButtonStyle = ElevatedButton.styleFrom(
-      onPrimary: Colors.white,
-      primary: Color(0xFF004D71),
+      foregroundColor: Colors.white, backgroundColor: Color(0xFF004D71),
       minimumSize: Size(288, 60),
       padding: EdgeInsets.symmetric(horizontal: 16),
       shape: const RoundedRectangleBorder(
