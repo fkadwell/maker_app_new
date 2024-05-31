@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        //     colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFF004D71)),
+        //   colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFF004D71)),
         scaffoldBackgroundColor: const Color(0xFF004D71),
         useMaterial3: true,
       ),
