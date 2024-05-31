@@ -43,8 +43,8 @@ class _MyHomePageState extends State<MyHomePage> {
           Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Image.asset("assets/images/edmonds_logo.png", width: 650),
-                Image.asset("assets/images/makerspace_logo.png", width: 300)
+                Image.asset("assets/login/images/edmonds_logo.png", width: 650),
+                Image.asset("assets/login/images/makerspace_logo.png", width: 300)
               ]),
           Column(
             mainAxisAlignment: MainAxisAlignment.center,

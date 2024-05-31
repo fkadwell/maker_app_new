@@ -63,6 +63,8 @@ flutter:
   assets:
      - assets/login/design.png
      - assets/login/images/edmonds-college-logo.svg
+     - assets/login/images/edmonds_logo.png
+     - assets/login/images/makerspace_logo.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
