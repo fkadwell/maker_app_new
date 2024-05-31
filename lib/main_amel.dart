@@ -31,7 +31,7 @@ class LoginPage extends StatelessWidget {
           Expanded(
             flex: 1,
             child: Image.asset(
-              'assets/login/images/design.png', // Change to your image path
+              'assets/login/images/design.png', // Change to your image path g
               fit: BoxFit.cover,
             ),
           ),
