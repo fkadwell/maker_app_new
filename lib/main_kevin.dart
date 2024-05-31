@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         // This is the theme of your application.
         //
-        // TRY THIS: Try running your application with "flutter run". You'll see
+        // TRY THIS: Try running your application with "flutter run". You'll see 
         // the application has a blue toolbar. Then, without quitting the app,
         // try changing the seedColor in the colorScheme below to Colors.green
         // and then invoke "hot reload" (save your changes or press the "hot
@@ -71,7 +71,8 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     final ButtonStyle raisedButtonStyle = ElevatedButton.styleFrom(
-      foregroundColor: Colors.white, backgroundColor: Color(0xFF004D71),
+      onPrimary: Colors.white,
+      primary: Color(0xFF004D71),
       minimumSize: Size(288, 60),
       padding: EdgeInsets.symmetric(horizontal: 16),
       shape: const RoundedRectangleBorder(
@@ -104,7 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
-                  SvgPicture.asset("assets/login/images/edmonds-college-logo.svg",
+                  SvgPicture.asset("assets/images/edmonds-college-logo.svg",
                     width: 600,
                     color: Colors.white,
                   ),
