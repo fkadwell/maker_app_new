@@ -55,7 +55,7 @@ class _SignUpPageState extends State<SignUpPage> {
                 child: Container(
                   height: double.infinity, // Occupies all available height
                   child: Image.asset(
-                    'images/Maker_space_design.png',
+                    'assets/login/design.png',
                     fit: BoxFit.contain, // Adjust this as needed (BoxFit.contain, BoxFit.fill, etc.)
                   ),
                 ),
